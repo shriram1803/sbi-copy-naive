@@ -1,0 +1,59 @@
+N<!DOCTYPE html>
+<html>
+<head>
+<meta data = "utf-8">
+<link rel="icon" href="https://homeloans.sbi/images/favicon.ico">
+<link rel="stylesheet" href="sbicss.css">
+<title>SBI LOGIN</title>
+
+<script>
+function allLetter(inputtxt)
+      { 
+      var letters = /^[A-Za-z.. ]+$/;
+      if(inputtxt.value.match(letters))
+      {
+	  window.open("SBI ONLINE.html","");
+      return true;
+      }
+      else
+      {
+      alert('Its Wrong !!! Please Enter alphabet characters only Thank You!!');
+      return false;
+      }
+      }
+	  
+</script>
+	
+</head>
+<body class= "formsbody">
+<div class= "header">
+  <p>
+  <img src="https://dq8dwmysp7hk1.cloudfront.net/logos/sbi.svg" height=90 width=90>
+  <img src="images/12.png" height=90 width=90 style="float: right">
+  </p>
+</div>
+
+<div class="topnav">
+  <a href="SBI ONLINE.html">Home</a>
+</div>
+<h4 class= "login1"> Login to Online SBI</h4>
+<form action="" name="myForm" onsubmit="return namevalidate()" method="post">
+  <label for="fname">User name*</label><br>
+  <input id= "greybg" type="text" id="fname" name="fname" value="" required><br>
+  <label for="password">Password*</label><br>
+  <input id= "greybg" type="Password" id="lname" name="lname" value="" required><br><br>
+  <input class="login2" type="Submit" name="submit" value="Login" onclick="allLetter(document.myForm.fname)" />
+
+</form> 
+<br>
+<a href="NEW USER SBI.html"><font class="loginpage" >New User ?Register here</font></a><br>
+<a href=""><font class="loginpage">Forgot Login Password</font></a>
+<br><br><br><br><br><br><br><br><br><br>
+<div class="footer">
+    <p>© State Bank of India (APM Id:Serv_Tran_564)
+	<a href="https://retail.onlinesbi.com/sbijava/retail/html/Terms_of_Use.html" style="float: right; color:white" >Terms of Service (Terms & Conditions)</a>
+	</p>
+</div>
+</body>
+</head>
+</html>

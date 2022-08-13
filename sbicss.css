@@ -1,0 +1,115 @@
+body { width: 1174px; margin: 0 auto; border: 15px light grey; background-color: F8F8F8; border-style: ridge}
+
+table {position: static; width: 1074px;  }
+td {
+	text-align: left;
+}
+
+th {
+	text-align: left;
+	color: dodgerblue;
+	font-size: 20px;
+}
+
+.formsbody {
+	background-color: azure;
+	text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #00BFFF;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right-color: azure;
+  border-right-style: groove;
+}
+
+.topnav a:hover {
+  background-color: #87CEEB	;
+  color: Black;
+}
+
+.column {
+  float: middle;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.column.left {
+  width: 100%;
+}
+
+.column.right {
+  width: 100%;
+}
+
+img.main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+	
+.login1 {
+	font-size: 20;
+	background-color: PaleTurquoise ;
+	color: steelblue;
+	text-align: left;
+}
+
+.login2 {
+	background-color: DeepSkyBlue ;
+	color: White;
+	font-size: 100;
+	border-radius: 25px;
+}
+.login2:hover {
+	background-color: #87CEEB	;
+  color: Black;
+  }
+
+#greybg {
+	background-color: lightgrey;
+}
+#greybg:hover {
+	background-color: lightblue;
+}
+
+form {
+	text-align: center;
+}
+
+.box {
+  float: left;
+  width: 41%;
+  padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer {
+    background-color: #000000;
+    padding: 10px;
+    text-align: left;
+    color: white;
+	font-size: 12px;
+}
+
+.loginpage {
+	text-align: center;
+	color: royal blue;
+}
+
+.loginpage:hover {
+	color: medium blue;
+}
